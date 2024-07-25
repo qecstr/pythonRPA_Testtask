@@ -1,0 +1,12 @@
+2024-07-25 14:49 - WARNING - File extension is missing
+2024-07-25 14:50 - WARNING - File extension is missing
+2024-07-25 14:50 - WARNING - {'name': 'bmp', 'path': 'TestTask\\3p\\bmp', 'size': '0.0 MB', 'last modified time': 'Thu Jul 25 13:19:13 2024'}
+2024-07-25 15:00 - ERROR - The directory does not exist
+2024-07-25 15:00 - WARNING - File extension is missing
+2024-07-25 15:00 - WARNING - {'name': 'bmp', 'path': 'TestTask\\3p\\bmp', 'size': '0.0 MB', 'last modified time': 'Thu Jul 25 13:19:13 2024'}
+2024-07-25 15:01 - WARNING - File extension is missing
+2024-07-25 15:01 - WARNING - {'name': 'bmp', 'path': 'TestTask\\3p\\bmp', 'size': '0.0 MB', 'last modified time': 'Thu Jul 25 13:19:13 2024'}
+2024-07-25 15:01 - WARNING - File extension is missing
+2024-07-25 15:01 - WARNING - {'name': 'bmp', 'path': 'TestTask\\3p\\bmp', 'size': '0.0 MB', 'last modified time': 'Thu Jul 25 13:19:13 2024'}
+2024-07-25 15:01 - CRITICAL - The directory does not exist
+2024-07-25 15:02 - ERROR - The directory is not a directory
