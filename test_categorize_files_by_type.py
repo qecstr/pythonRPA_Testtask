@@ -3,7 +3,7 @@ import pytest
 from tempfile import TemporaryDirectory
 from categorize_files import categorize_files_by_type
 
-
+#python fixture creating a temporary dir for tests
 @pytest.fixture
 def create_test_environment():
     with TemporaryDirectory() as tmp_dir:
@@ -37,7 +37,7 @@ def create_test_environment():
 
         yield base_path
 
-
+#for simple test to assert expectations
 def test_categorize_files_by_type(create_test_environment):
     folder_path = create_test_environment
     result = categorize_files_by_type(folder_path)

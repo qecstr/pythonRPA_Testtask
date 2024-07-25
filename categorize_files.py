@@ -3,7 +3,7 @@ import time
 import json
 from collections import defaultdict
 import logging
-
+#basic config for logging, all log goes to app.log file
 logging.basicConfig(
         filename="app.log",
         encoding="utf-8",
@@ -36,7 +36,7 @@ def categorize_files_by_type(folder_path):
 
     return dict(result)
 
-
+#logging if one of expected statements is missing size and last mod. time cannot be none,so there is not any
 def logging_if_missing(file_path,extension,file_dict):
 
     if file_path == "":
